@@ -1,0 +1,85 @@
+.background_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #150b3e;
+  height: 100vh;
+  width: 100%;
+  border-style: solid;
+  border-width: 0px;
+  padding: 30px;
+  font-family: 'Roboto';
+  align-self: center;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.name_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.para {
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  align-self: center;
+  margin-right: 30px;
+  padding-top: 17px;
+}
+
+.heading {
+  color: #d4d2db;
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  align-self: center;
+}
+
+.balance_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.yourBalance_para {
+  color: #585076;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.align_yourBalance_para {
+  align-self: center;
+}
+
+.balance_amount {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.left_para {
+  margin-left: auto;
+}
+
+.balance_amount_text {
+  color: #585076;
+  font-size: 15px;
+  text-align: center;
+}
+
+.unList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}

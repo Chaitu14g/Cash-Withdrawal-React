@@ -1,0 +1,19 @@
+.button {
+  background-color: #382f5a;
+  color: #c4c4c4;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #c4c4c4;
+  padding: 10px;
+  width: 200px;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.list {
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 200px;
+}
